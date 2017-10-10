@@ -70,18 +70,18 @@
                             {% if song.is_fav %}
                             <img src="https://i.pinimg.com/736x/07/e4/c9/07e4c90a1e6c73f1d7d6679b0d923cc5--star-emoji-star-images.jpg" class="img-responisve" height="auto">
                             {% endif %}
-                         </label> <br>
+                         </label> <br> {% endfor %}
                     </div>
                 </div>
             </div>
 
             <div class="form-group">
                 <div class="col-lg-10 col-lg-offset-2">
-                    <button type="submit" name="fav" class="btn btn-primary">Submit</button>
+                    <button type="submit" name="fav" class="btn btn-primary">Favourite</button>
                 </div>
             </div>
         </fieldset>
-        {% endfor %}
+
     </form>
     <!-- <h3 align="center">{{ album }}</h3>
     <img class="img-responsive" src="{{ album.album_logo}}" alt="" height="auto">
