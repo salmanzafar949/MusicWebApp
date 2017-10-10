@@ -30,5 +30,5 @@ def ListAlbums(request, album_id):
      return render(request, 'music/Details.html', {'album':album})
     #  return HttpResponse("<h2> Details for Album id: " + str(album_id) +"</h2>")
 
-def fav(request):
+def fav(request, album_id):
     pass
