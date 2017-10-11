@@ -11,4 +11,6 @@ urlpatterns = [
     url(r'^(?P<album_id>[0-9]+)/$', views.ListAlbums, name='ListAlbums'),
     #/music/1/fav
     url(r'^(?P<album_id>[0-9]+)/fav$', views.fav, name='fav'),
+    #music/login
+    url(r'^login$',views.login, name='login')
 ]
